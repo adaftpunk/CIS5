@@ -1,0 +1,35 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+CND_BUILDDIR=build
+CND_DISTDIR=dist
+# Debug configuration
+CND_PLATFORM_Debug=MinGW-Windows
+CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
+CND_ARTIFACT_NAME_Debug=roman_num_conv
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/roman_num_conv
+CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
+CND_PACKAGE_NAME_Debug=romannumconv.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/romannumconv.tar
+# Release configuration
+CND_PLATFORM_Release=MinGW-Windows
+CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
+CND_ARTIFACT_NAME_Release=roman_num_conv
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/roman_num_conv
+CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
+CND_PACKAGE_NAME_Release=romannumconv.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/romannumconv.tar
+#
+# include compiler specific variables
+#
+# dmake command
+ROOT:sh = test -f nbproject/private/Makefile-variables.mk || \
+	(mkdir -p nbproject/private && touch nbproject/private/Makefile-variables.mk)
+#
+# gmake command
+.PHONY: $(shell test -f nbproject/private/Makefile-variables.mk || (mkdir -p nbproject/private && touch nbproject/private/Makefile-variables.mk))
+#
+include nbproject/private/Makefile-variables.mk
