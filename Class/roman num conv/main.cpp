@@ -53,8 +53,8 @@ int main(int argc, char** argv) {
         
     //Switch statement to convert the 1000s   
         switch(n1000s){
-            case 3:rmNmrl+="MMM";
-            case 2:rmNmrl+="MM";
+            case 3:rmNmrl+="M";
+            case 2:rmNmrl+="M";
             case 1:rmNmrl+="M";      
         }
     
@@ -81,7 +81,7 @@ int main(int argc, char** argv) {
                       
         
     //Dependent if's to convert 1s
-        if(n1s==9)rmNmrl+= "IX";
+        if(n1s==9)      rmNmrl+= "IX";
         else if(n1s==8) rmNmrl+="VIII";
         else if(n1s==7) rmNmrl+="VII";
         else if(n1s==6) rmNmrl+="VI";

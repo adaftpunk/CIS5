@@ -34,22 +34,22 @@ int main(int argc, char** argv) {
     
     //Map the inputs to the outputs
     if(strcmp(name1,name2)<0 && strcmp(name2,name3)<0){
-        cout<<"the names are the same"<<name1<<","<<name2<<","<<name3<<endl;
+        cout<<"Sorted order is "<<name1<<", "<<name2<<", "<<name3<<endl;
     }
     else if(strcmp(name1,name3)<0 && strcmp(name3,name2)<0){
-        cout<<"Sorted order is "<<name1<<","<<name3<<", "<<name2<<endl;
+        cout<<"Sorted order is "<<name1<<", "<<name3<<", "<<name2<<endl;
     }    
     else if(strcmp(name2,name1)<0 && strcmp(name1,name3)<0){
-        cout<<"Sorted order is "<<name2<<","<<name1<<", "<<name3<<endl;
+        cout<<"Sorted order is "<<name2<<", "<<name1<<", "<<name3<<endl;
     }
     else  if(strcmp(name2,name3)<0 && strcmp(name3,name1)<0){
-        cout<<"the names are the same"<<name2<<","<<name3<<name1<<endl;
+        cout<<"Sorted order is "<<name2<<", "<<name3<<", "<<name1<<endl;
     }
     else  if(strcmp(name3,name1)<0 && strcmp(name1,name2)<0){
-        cout<<"the names are the same"<<name3<<","<<name1<<name2<<endl;
+        cout<<"Sorted order is "<<name3<<", "<<name1<<", "<<name2<<endl;
     }
     else  if(strcmp(name3,name2)<0 && strcmp(name2,name1)<0){
-        cout<<"the names are the same"<<name3<<","<<name2<<name1<<endl;
+        cout<<"Sorted order is "<<name3<<", "<<name2<<", "<<name1<<endl;
     }
     //Display the inputs and outputs
     
