@@ -33,22 +33,22 @@ int main(int argc, char** argv) {
     
     //Map the inputs to the outputs
     if(name1<name2 && name2<name3){
-        cout<<"the names are the same"<<name1<<","<<name2<<", "<<name3<<endl;
+        cout<<"Sorted order is "<<name1<<", "<<name2<<", "<<name3<<endl;
     }
     else if(name1<name3 && name3<name2){
-        cout<<"Sorted order is "<<name1<<","<<name3<<", "<<endl;
+        cout<<"Sorted order is "<<name1<<", "<<name3<<", "<<name2<<endl;
     }    
     else if(name2<name1 && name1<name3){
-        cout<<"Sorted order is "<<name2<<","<<name1<<", "<<name3<<endl;
+        cout<<"Sorted order is "<<name2<<", "<<name1<<", "<<name3<<endl;
     }
     else  if(name2<name3 && name3<name1){
-        cout<<"the names are the same"<<name2<<","<<name3<<name1<<endl;
+        cout<<"Sorted order is "<<name2<<", "<<name3<<", "<<name1<<endl;
     }
     else  if(name3<name1 && name1<name2){
-        cout<<"the names are the same"<<name3<<","<<name1<<name2<<endl;
+        cout<<"Sorted order is "<<name3<<", "<<name1<<", "<<name2<<endl;
     }
     else  if(name3<name2 && name2<name1){
-        cout<<"the names are the same"<<name3<<","<<name2<<name1<<endl;
+        cout<<"Sorted order is "<<name3<<", "<<name2<<", "<<name1<<endl;
     }
     //Display the inputs and outputs
     

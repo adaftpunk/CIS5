@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Garrett Hileman
  * Created on March 22, 2022, 11:27 AM
- * Purpose: Sort 3 names
+ * Purpose: Sort 2 names
  */
 //System Libraries
 
